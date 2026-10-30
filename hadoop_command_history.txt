@@ -1,0 +1,32 @@
+    1  hdfs dfs -cat /retail/online_retail_sales_deduplicated.csv | head -n 5
+    2  exit
+    3  find / -name 'hadoop-mapreduce-examples*.jar' 2>/dev/null
+    4  hadoop jar /opt/hadoop-3.2.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar
+    5  hadoop jar /opt/hadoop-3.2.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount /retail /retail_wordcount_output
+    6  hdfs dfs -ls /retail_wordcount_output
+    7  hdfs dfs -cat /retail_wordcount_output/part-r-00000 | head -n 20
+    8  hdfs dfs -cat /retail_wordcount_output/part-r-00000 | head -n 20
+    9  find /opt/hadoop-3.2.1 -name 'hadoop-streaming*.jar'
+   10  python3 --version
+   11  ls -lh /opt/hadoop-3.2.1/share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar
+   12  which python
+   13  which python3
+   14  which perl
+   15  which awkwhich python
+   16  which python3
+   17  which perl
+   18  which awkwhich pythonwhich python3which perlwhich awk
+   19  which python
+   20  ls -lh /opt/hadoop-3.2.1/share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar
+   21  which python
+   22  which python3
+   23  which perl
+   24  which awk
+   25  ls -lh /opt/hadoop-3.2.1/share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar
+   26  perl -MText::CSV -e 'print "Text::CSV available\n"'
+   27  chmod +x /tmp/mapper.pl
+   28  docker ps
+   29  exit
+   30  hdfs dfs -ls /
+   31  history
+   32  history > /tmp/hadoop_command_history.txt
